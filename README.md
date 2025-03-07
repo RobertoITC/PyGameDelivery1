@@ -1,2 +1,1 @@
-# PyEnemiesClase
-Lo que hicimos en clase de enemies y player y game
+# Juego para el delivery 1 de arquitectura
