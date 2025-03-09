@@ -1,12 +1,14 @@
 import pygame
-from entities.bullet import Bullet
+from src.entities.bullet import Bullet
 
 
 class Player:
-    def __init__(self, x, y):
+    def __init__(self, x, y, speed,health, bullet_cooldown):
         self.x = x
         self.y = y
-        self.speed = 5
+        self.speed = speed
+        self.health = health
+        self.bullet_cooldown = bullet_cooldown
         self.sprite_path = pygame.image.load("../assets/images/player.png")
 
     def shoot(self):
